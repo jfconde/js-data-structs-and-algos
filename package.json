@@ -1,0 +1,25 @@
+{
+  "name": "js-data-structs-and-algos",
+  "version": "1.0.0",
+  "description": "Example implementation of several data structures and algorithms in JS (TypeScript)",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfconde/js-data-structs-and-algos.git"
+  },
+  "author": "Juan Carlos Fernández Conde",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/jfconde/js-data-structs-and-algos/issues"
+  },
+  "homepage": "https://github.com/jfconde/js-data-structs-and-algos#readme"
+}
