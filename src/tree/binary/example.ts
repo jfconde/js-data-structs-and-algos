@@ -46,14 +46,8 @@ function printNodeSequence (nodes: Node<any> []) {
 
 printSectionTitle('Binary Tree Examples');
 
-console.log(chalk.cyan('\nExample node tree:'));
-console.log(chalk.cyan('           1'));
-console.log(chalk.cyan('        /     \\'));
-console.log(chalk.cyan('       2      7'));
-console.log(chalk.cyan('      / \\    / \\'));
-console.log(chalk.cyan('     3  4   8   9'));
-console.log(chalk.cyan('    / \\'));
-console.log(chalk.cyan('   5  6\n'));
+console.log(chalk.cyan('\nExample node tree:\n'));
+exampleBinaryTree.print();
 
 let visitedNodes: Node<Number>[] = [];
 

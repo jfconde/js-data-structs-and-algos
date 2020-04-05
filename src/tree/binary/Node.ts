@@ -1,3 +1,7 @@
+// No TS definition exists for this module.
+// @ts-ignore
+import {printAsciiTree} from 'binary-tree-printer';
+
 /**
  * This class represents a Binary Tree Node.
  * We require a value for the node, and it can contain left and right children.
@@ -32,5 +36,17 @@ export default class BinaryTreeNode<T> {
         }
 
         return size;
+    }
+
+    toAsciiTreeStructure(): Object {
+        return {
+            value: this.value,
+            left: this.left && this.left.toAsciiTreeStructure(),
+            right: this.right && this.right.toAsciiTreeStructure()
+        };
+    }
+
+    print() {
+        console.log(printAsciiTree(this.toAsciiTreeStructure()));
     }
 }

@@ -4,6 +4,7 @@
   "description": "Example implementation of several data structures and algorithms in JS (TypeScript)",
   "main": "index.js",
   "dependencies": {
+    "binary-tree-printer": "0.0.3",
     "chalk": "^4.0.0",
     "typescript": "^3.8.3"
   },
